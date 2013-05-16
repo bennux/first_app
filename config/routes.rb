@@ -1,4 +1,12 @@
 FirstApp::Application.routes.draw do
+
+	root :to => "benny#hello"
+
+	# get "/benny/hello(.:format)" => "benny#hello"
+
+  
+	# get "benny_hello" => "benny#hello"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
